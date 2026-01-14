@@ -23,3 +23,7 @@ spring :
     hibernate:
       ddl-auto: create
     show_sql: true
+    
+  cloud:
+    bus:
+      enabled: true
